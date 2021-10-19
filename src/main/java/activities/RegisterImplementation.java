@@ -14,5 +14,4 @@ public class RegisterImplementation {
         registerScenario.enterFillPassword("123456");
         registerScenario.clickOnCreateAccount();
     }
-
 }

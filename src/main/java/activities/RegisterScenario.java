@@ -37,5 +37,4 @@ public class RegisterScenario extends SeleniumBaseTest {
     public void clickOnCreateAccount(){
         wrapper.ClickButtonUsingJavaScript(driver, createAccount);
     }
-
 }
