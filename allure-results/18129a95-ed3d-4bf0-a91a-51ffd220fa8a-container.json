@@ -1,0 +1,1 @@
+{"uuid":"18129a95-ed3d-4bf0-a91a-51ffd220fa8a","name":"Genwin","children":["205fd1e5-9a1d-4940-9cdc-48dceedf0b77"],"befores":[],"afters":[{"name":"CloseBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1634745947194,"stop":1634745947265}],"links":[],"start":1634745939458,"stop":1634745947266}
