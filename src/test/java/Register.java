@@ -1,3 +1,4 @@
+import activities.Assertion;
 import activities.RegisterImplementation;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

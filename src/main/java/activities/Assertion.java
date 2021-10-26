@@ -21,11 +21,6 @@ public class Assertion extends SeleniumBaseTest {
         Assert.assertEquals(actual,exceptedEmailFieldError);
         System.out.println("passed");
     }
-
-
-
-
-
 }
 
 

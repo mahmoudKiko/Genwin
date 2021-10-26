@@ -29,10 +29,6 @@ public class LoginScenario extends SeleniumBaseTest{
             wait.until(ExpectedConditions.presenceOfElementLocated(password)).sendKeys(pass);
         }
         public void clickOnLoginButton(){
-
             wrapper.ClickButtonUsingJavaScript(driver, loginBtn);
-        }
-        public void EndTestCase(){
-            driver.close();
         }
 }
