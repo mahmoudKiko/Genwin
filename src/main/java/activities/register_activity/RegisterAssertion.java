@@ -1,10 +1,10 @@
-package activities;
+package activities.register_activity;
 
 import base.SeleniumBaseTest;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-public class Assertion extends SeleniumBaseTest {
+public class RegisterAssertion extends SeleniumBaseTest {
 
     String actual;
     String exceptedNameFieldError  ="";//Name is not valid

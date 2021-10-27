@@ -1,15 +1,15 @@
-package activities;
+package activities.register_activity;
 
 import constants.UserData;
 
 public class RegisterImplementation extends UserData {
 
     RegisterScenario registerScenario;
-    Assertion assertion;
+    RegisterAssertion assertion;
 
     public RegisterImplementation () {
         registerScenario = new RegisterScenario();
-        assertion = new Assertion();
+        assertion = new RegisterAssertion();
     }
 
     public void fillHappyScenario(){

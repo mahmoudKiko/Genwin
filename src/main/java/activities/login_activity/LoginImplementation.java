@@ -1,8 +1,6 @@
-package activities;
+package activities.login_activity;
 
 import base.SeleniumBaseTest;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import utility.Strings;
 

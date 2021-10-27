@@ -1,4 +1,4 @@
-package activities;
+package activities.login_activity;
 import base.SeleniumBaseTest;
 import com.shaft.gui.browser.BrowserActions;
 import org.openqa.selenium.By;

@@ -1,7 +1,7 @@
-package activities;
+package activities.register_activity;
 
 import base.SeleniumBaseTest;
-import mailCheck.MailScenario;
+import mail_check.MailScenario;
 
 public class RegisterMails extends MailScenario {
 

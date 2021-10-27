@@ -1,6 +1,5 @@
-import activities.Assertion;
-import activities.RegisterImplementation;
-import activities.RegisterMails;
+import activities.register_activity.RegisterImplementation;
+import activities.register_activity.RegisterMails;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
