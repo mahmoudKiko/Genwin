@@ -1,3 +1,4 @@
+import activities.Assertion;
 import activities.RegisterImplementation;
 import activities.RegisterMails;
 import org.testng.annotations.BeforeClass;
