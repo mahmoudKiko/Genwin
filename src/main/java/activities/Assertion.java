@@ -8,7 +8,7 @@ public class Assertion extends SeleniumBaseTest {
 
     String actual;
     String exceptedNameFieldError  ="";//Name is not valid
-    String exceptedEmailFieldError ="The Email field is required";//The Email field is required
+    String exceptedEmailFieldError ="";//The Email field is required
 
     public void assertNameField(){
         actual = driver.findElement(By.id("inputName-feedback")).getText();

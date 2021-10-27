@@ -18,6 +18,7 @@ public class RegisterScenario extends SeleniumBaseTest {
 
     public RegisterScenario() {
         initSingleDriver();
+        //initMultiDriver();
         enterRegister();
     }
 

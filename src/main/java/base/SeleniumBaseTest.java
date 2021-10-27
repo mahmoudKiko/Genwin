@@ -2,6 +2,7 @@ package base;
 
 import com.shaft.gui.browser.BrowserFactory;
 import com.shaft.gui.element.ElementActions;
+import constants.UserData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,8 +14,8 @@ import utility.Wrappeer;
 
 public class SeleniumBaseTest {
 
-
-    public static WebDriver driver;
+    public static WebDriver driver,mailDriver;
+    public static UserData user;
     public static Actions builder;
     public static JavascriptExecutor js;
     public static WebDriverWait wait;
