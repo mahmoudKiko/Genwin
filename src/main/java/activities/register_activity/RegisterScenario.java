@@ -1,4 +1,4 @@
-package activities;
+package activities.register_activity;
 
 import base.SeleniumBaseTest;
 import com.shaft.gui.browser.BrowserActions;

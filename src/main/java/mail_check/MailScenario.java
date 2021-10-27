@@ -1,4 +1,4 @@
-package mailCheck;
+package mail_check;
 
 import base.SeleniumBaseTest;
 import org.openqa.selenium.WebDriver;

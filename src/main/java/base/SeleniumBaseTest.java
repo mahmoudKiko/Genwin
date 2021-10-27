@@ -36,5 +36,4 @@ public class SeleniumBaseTest {
     public static void click(By element) {
         ElementActions.click(driver, element);
     }
-
 }

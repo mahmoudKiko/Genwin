@@ -1,4 +1,4 @@
-import activities.LoginImplementation;
+import activities.login_activity.LoginImplementation;
 import base.SeleniumBaseTest;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
