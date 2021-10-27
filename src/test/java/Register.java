@@ -1,12 +1,12 @@
 import activities.RegisterImplementation;
-import base.SeleniumBaseTest;
-import org.testng.annotations.AfterTest;
+import activities.RegisterMails;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class Register {
 
     RegisterImplementation registerImplementation;
+    RegisterMails registerMails;
 
     @BeforeClass
     public void beforeRunning() {
@@ -16,10 +16,11 @@ public class Register {
     @Test
     public void phase1Happyscenario(){
        registerImplementation.fillHappyScenario();
+        registerMails = new RegisterMails(registerImplementation.getEmailId());
     }
-
+/*
     @AfterTest
     public void afterTest() throws InterruptedException {
         SeleniumBaseTest.driver.quit();
-    }
+    }*/
 }
